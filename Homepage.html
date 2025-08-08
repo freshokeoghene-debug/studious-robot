@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chigozie University</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      background: url('pic.png') no-repeat center center fixed;
+      background-size: cover;
+      animation: zoomBg 30s infinite alternate;
+    }
+
+    @keyframes zoomBg {
+      0% { background-size: 100%; }
+      100% { background-size: 110%; }
+    }
+
+    header {
+      background-color: rgba(128, 0, 128, 0.9);
+      text-align: center;
+      padding: 20px;
+    }
+
+    header img {
+      width: 100px;
+      height: auto;
+    }
+
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 2.5em;
+      color: yellow;
+    }
+
+    nav {
+      background-color: #ffd700;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: purple;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      text-align: center;
+      padding: 80px 20px;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .content h2 {
+      font-size: 2em;
+      color: yellow;
+    }
+
+    .content p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 20px auto;
+    }
+
+    .faculties {
+      margin-top: 40px;
+    }
+
+    .faculties a {
+      display: inline-block;
+      margin: 15px;
+      padding: 15px 25px;
+      background-color: purple;
+      color: yellow;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: transform 0.3s;
+    }
+
+    .faculties a:hover {
+      transform: scale(1.1);
+      background-color: #660066;
+    }
+
+    footer {
+      background-color: rgba(128, 0, 128, 0.9);
+      text-align: center;
+      padding: 15px;
+      color: white;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    
+    .faculties a {
+      display: inline-block;
+      margin: 15px;
+      padding: 15px 25px;
+      background-color: purple;
+      color: yellow;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: transform 0.3s;
+    }
+
+    .faculties a:hover {
+      transform: scale(1.1);
+      background-color: #660066;
+    }
+
+    footer {
+      background-color: rgba(128, 0, 128, 0.9);
+      text-align: center;
+      padding: 15px;
+      color: white;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="pic.png" alt="Chigozie University Logo">
+    <h1>Chigozie University</h1>
+    <p>The Future Begins Here</p>
+  </header>
+  
+  <div class="content">
+    <h2>Welcome to Chigozie University</h2>
+    <p>At Chigozie University, we strive to provide quality education that empowers students with the knowledge and skills to lead in science, computing, and beyond.</p>
+
+    <div class="faculties">
+      <a href="Science.html">Faculty Of Science</a>
+      <a href="Computing.html"> Faculty Of Computing  </a>
+          <div class="faculties">
+      <a href="Contact.html">Contact</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Chigozie University | All rights reserved.
+  </footer>
+
+</body>
+</html>

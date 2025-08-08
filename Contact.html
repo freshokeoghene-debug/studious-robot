@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Chigozie University</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      background: url('Pic.png') no-repeat center center fixed;
+      background-size: cover;
+      animation: zoomBg 30s infinite alternate;
+    }
+
+    @keyframes zoomBg {
+      0% { background-size: 100%; }
+      100% { background-size: 110%; }
+    }
+
+    header {
+      background-color: rgba(128, 0, 128, 0.9);
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      color: yellow;
+    }
+
+    nav {
+      background-color: #ffd700;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 10px;
+      color: purple;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      padding: 40px;
+      background-color: rgba(0, 0, 0, 0.4);
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .content h2 {
+      color: yellow;
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    button {
+      padding: 12px;
+      background-color: yellow;
+      color: purple;
+      border: none;
+      font-weight: bold;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #ffcc00;
+    }
+
+    footer {
+      background-color: rgba(128, 0, 128, 0.9);
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact Chigozie University</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="science.html">Faculty of Science</a>
+    <a href="computing.html">Faculty of Computing</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <div class="content">
+    <h2>Get in Touch</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="Chigozie78@gmail.com" placeholder="Your Email" required>
+      <input type="tel" placeholder="Your Phone Number">
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 Chigozie University — Contact Us
+  </footer>
+
+</body>
+</html>
